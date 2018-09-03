@@ -3,7 +3,7 @@
 # How to run
 
 1. Provide youtube data API key in `client/src/controller/Search.js`
-2.
+2. Build the client web app
 ```
 $ cd client
 $ npm run build
