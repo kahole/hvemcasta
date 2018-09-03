@@ -1,0 +1,63 @@
+
+.Search {
+}
+
+.searchField {
+    border: none;
+    padding: 12px 15px;
+    font-size: 1.4rem;
+    color: #34495e;
+    width: 100%;
+    outline: none;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-appearance: none;
+    margin: 0;
+
+    background-color: whitesmoke;
+}
+
+.result {
+
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid black;
+}
+
+.thumbnail {
+
+    height: 90px;
+    width: auto;
+}
+
+.infoBox {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.title {
+}
+
+.channelTitle {
+    color: grey;
+}
+
+.spacer {
+    flex-grow: 2;
+}
+
+.rowBtn {
+    align-self: center;
+    padding-right: 10px;
+}
+
+.helper {
+    padding-left: 60px;
+    padding-top: 20px;
+}

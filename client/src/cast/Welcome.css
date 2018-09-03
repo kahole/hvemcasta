@@ -1,0 +1,14 @@
+
+.welcome {
+    background: url(https://i.redd.it/47iiz7uguh301.jpg);
+    background-size: cover;
+    /* grid-column-start: 1; */
+    flex-grow: 1;
+}
+
+.message {
+    color: #FFF5C3;
+    font-size: 90px;
+    margin-top: 150px;
+    margin-left: 40px;
+}

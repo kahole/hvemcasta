@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.1.1",
+    "react-youtube": "^7.5.0",
+    "simple-react-router": "0.0.15",
+    "youtube-search": "^1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -r ../backend/public && react-scripts build && cp -r build ../backend/public",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001"
+}
