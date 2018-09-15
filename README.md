@@ -5,11 +5,13 @@
 1. Start backend
 ```
 $ cd backend
+$ npm i
 $ npm start
 ```
 2. Start client
 ```bash
 $ cd client
+$ npm i
 $ npm start
 ```
 
