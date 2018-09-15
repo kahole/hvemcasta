@@ -1,6 +1,19 @@
 # hvemcasta
 
-# How to run
+# How to run (development)
+
+1. Start backend
+```
+$ cd backend
+$ npm start
+```
+2. Start client
+```bash
+$ cd client
+$ npm start
+```
+
+# How to deploy and run
 
 1. Provide youtube data API key in `client/src/controller/Search.js`
 2. Build the client web app
@@ -15,4 +28,4 @@ $ npm start
 ```
 
 navigate to localhost:PORT in your browser.
-Default port is 3000, can be changed in backend/package.json
+Default port is 3001, can be changed in backend/package.json
