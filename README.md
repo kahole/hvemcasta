@@ -16,6 +16,9 @@ $ npm start
 # How to deploy and run
 
 1. Provide youtube data API key in `client/src/controller/Search.js`
+
+[Getting an API key](https://developers.google.com/youtube/registering_an_application) NB! Only API key is needed, not OAuth 2.0
+
 2. Build the client web app
 ```
 $ cd client
